@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 480px;
+    margin: 50px auto;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+}
+
+header, nav, div, footer {
+    outline: solid 1px grey;
+    overflow: hidden;
+}

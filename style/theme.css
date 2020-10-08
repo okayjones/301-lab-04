@@ -1,0 +1,78 @@
+/* Mobile theme */
+header {
+    background-color: #204150;
+    color: #fff;
+}
+
+nav {
+    background-color: #45767b;
+    color: #fff;
+}
+
+.top-content > div:nth-child(1){
+    background-color: #fef171;
+}
+
+.top-content > div:nth-child(2){
+    background-color: #b2ffd3;  
+}
+
+.bottom-content > div:nth-child(1){
+    background-color: #72c29b;
+}
+
+.bottom-content > div:nth-child(2){
+    background-color: #798d96;
+}
+
+.bottom-content > div:nth-child(3){
+    background-color: #fef8b8;
+}
+
+.bottom-content > div:nth-child(4){
+    background-color: #d2d9dc;
+}
+
+footer {
+    background-color: #4c6672;
+    color: #fff;
+}
+
+/* Desktop theme */
+@media only screen and (min-width: 768px){
+    header {
+        background-color: #B7990D;
+    }
+    
+    nav {
+        background-color: #110B11;
+    }
+    
+    .top-content > div:nth-child(1){
+        background-color: #A5D0A8;
+    }
+    
+    .top-content > div:nth-child(2){
+        background-color: #8CADA7;  
+    }
+    
+    .bottom-content > div:nth-child(1){
+        background-color: #EF8354;
+    }
+    
+    .bottom-content > div:nth-child(2){
+        background-color: #F2F4CB;
+    }
+    
+    .bottom-content > div:nth-child(3){
+        background-color: #F6DF79;
+    }
+    
+    .bottom-content > div:nth-child(4){
+        background-color: #F9B5AC;
+    }
+    
+    footer {
+        background-color: #875C74;
+    }
+}
