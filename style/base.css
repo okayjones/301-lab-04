@@ -12,5 +12,5 @@ body {
 
 header, nav, div, footer {
     outline: solid 1px grey;
-    overflow: hidden;
+ /*   overflow: hidden; */
 }
