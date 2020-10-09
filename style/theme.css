@@ -38,7 +38,7 @@ footer {
     color: #fff;
 }
 
-/* Desktop theme */
+/* Tablet theme */
 @media only screen and (min-width: 768px){
     header {
         background-color: #B7990D;
@@ -74,5 +74,44 @@ footer {
     
     footer {
         background-color: #875C74;
+    }
+}
+
+/* Desktop theme */
+@media only screen and (min-width: 991px){
+    header {
+        background-color: #1D201F;
+    }
+    
+    nav {
+        background-color: #D1DEDE;
+    }
+    
+    .top-content > div:nth-child(1){
+        background-color: #C58882;
+    }
+    
+    .top-content > div:nth-child(2){
+        background-color: #DF928E;  
+    }
+    
+    .bottom-content > div:nth-child(1){
+        background-color: #EAD2AC;
+    }
+    
+    .bottom-content > div:nth-child(2){
+        background-color: #1AC8ED;
+    }
+    
+    .bottom-content > div:nth-child(3){
+        background-color: #8C2155;
+    }
+    
+    .bottom-content > div:nth-child(4){
+        background-color: #5C1A1B;
+    }
+    
+    footer {
+        background-color: #718F94;
     }
 }
