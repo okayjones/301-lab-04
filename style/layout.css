@@ -26,17 +26,17 @@ nav {
 }
 
 .top-content > div {
-    line-height: 9.375em;
+    line-height: 7.8125em;
     flex: 1;
 }
 
 .bottom-content > div {
-    line-height: 9.375em;
+    line-height: 15.625em;
     width: 50%;
 }
 
 footer {
-    line-height: 80em;
+    line-height: 5em;
     width: 100%;
 }
 
