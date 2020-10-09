@@ -8,19 +8,18 @@ header {
     line-height: 75px;
     width: 100%;
 }
-
+.main {
+    flex-direction: column;
+    flex: 1;
+}
 nav {
     line-height: 150px;
     width: 100%;
 }
 
-.top-content, .bottom-content {
-    width: 100%;
-}
-
 .top-content > div {
     line-height: 125px;
-    width: 100%;
+    flex: 1;
 }
 
 .bottom-content > div {
@@ -37,37 +36,32 @@ footer {
 
 @media only screen and (min-width: 768px){
     body {
-        width:960px;
+        width:60em;
     }
 
     header {
-        height: 100px;
-        line-height: 100px;
+        line-height: 6.25em;
     }
 
     nav {
-        float:left;
-        height: 600px;
-        width: 200px;
-        line-height: 600px;
+        width: 12.5em;
+        line-height: 37.5em;
+    }
+
+    .top-content, .bottom-content {
+        flex: 1;
     }
 
     .top-content > div {
-        height: 200px;
-        line-height: 200px;
-        width: 50%;
-        float: left;
+        line-height: 12.5em;
     }
 
     .bottom-content > div {
-        width: 25%;
-        float: left;
-        height: 250px;
         line-height: 250px;
+        flex: .25;
     }
 
     footer {
         height: 150px;
-        line-height: 150px;
     }
 }
